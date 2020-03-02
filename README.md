@@ -1,2 +1,2 @@
-# project-personalwiki
-Project repository for 'personalwiki' team
+# project-PersonalWiki
+Project repository for 'PersonalWiki' team
