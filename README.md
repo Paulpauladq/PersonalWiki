@@ -29,3 +29,5 @@ Project repository for 'PersonalWiki' team
 Link to project page is [here](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 
 Link to project wiki is [here](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
+
+# Team Collaboration
