@@ -7,7 +7,7 @@ The goal of this project is the creation of personal wiki application that inclu
 
 
 # Team
-Name: CCIS-ID:
+Name: Ziqi Tang   CCIS-ID:paultzq
 
 Name: CCIS-ID:
 
