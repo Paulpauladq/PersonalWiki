@@ -9,7 +9,7 @@ The goal of this project is the creation of personal wiki application that inclu
 # Team
 Name: Ziqi Tang   CCIS-ID:paultzq
 
-Name: CCIS-ID:
+Name: Shengfu Zhang CCIS-ID:otaku0628
 
 Name: Fang Song   CCIS-ID: fangsong
 
