@@ -31,6 +31,5 @@ Project repository for 'PersonalWiki' team
 
 
 # Team Collaboration
-* We use a "git flow" workflow 
-     * Team members create forks of the team repository, 
-     * Team members submit pull requests to merge forked repo changes to the master branch of the team's repo
+* We use a feature branch workflow
+     * Team members commit branches and submit pull requests to have code reviewed and committed to the master branch
