@@ -13,6 +13,7 @@ Project repository for 'PersonalWiki' team
 
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
 
+
 # Team
 
 
@@ -32,3 +33,6 @@ Project repository for 'PersonalWiki' team
 
 
 # Team Collaboration
+* We use a "git flow" workflow 
+     * Team members create forks of the team repository, 
+     * Team members submit pull requests to merge forked repo changes to the master branch of the team's repo
