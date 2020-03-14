@@ -10,8 +10,8 @@ Project repository for 'PersonalWiki' team
 # Description
 
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
-
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
+* [Project Board](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/projects/1)
 
 
 # Team
@@ -26,9 +26,9 @@ Project repository for 'PersonalWiki' team
 |Xun Wang|xunwang|
 |Yan Zhao|adoudouzhao|
 
->Primary customer representative: Ziqi Tang(@paultzq)
+>Primary customer representative: Ziqi Tang(paultzq)
 
->Alternate customer representative: Shengfu Zhang(@otaku0628)
+>Alternate customer representative: Shengfu Zhang(otaku0628)
 
 
 
