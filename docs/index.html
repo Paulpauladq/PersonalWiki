@@ -1,306 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Custom fonts for this template -->
-    <link
-      href="vendor/fontawesome-free/css/all.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <title>Personal Wiki &mdash; This is a personal wiki created by our Team.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet" />
-    <title>Personal Wiki - Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
   </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
 
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          >Personal Wiki</a
-        >
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Team</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Features</a>
-            </li>
-          </ul>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
-    </nav>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome</div>
-          <div class="intro-heading">Personal Wiki</div>
-          <a
-            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            href="#services"
-            >Tell Me More</a
-          >
-        </div>
-      </div>
-    </header>
-
-    <!-- team -->
-
-    <section id="services">
+    <div class="border-bottom top-bar py-2 bg-dark" id="home-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Team</h2>
+          <div class="col-md-6">
+            <p class="mb-0">
+              <span class="mr-3"><strong class="text-white">Welcome to the project-PersonalWiki wiki!</strong> </span>
+            </p>
           </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="ziqitang"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Ziqi Tang
-            </h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="shengfuzhang"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Shengfu Zhang
-            </h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="fangsong"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Fang Song
-            </h4>
-          </div>
-        </div>
-
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="qimincao"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Qimin Cao
-            </h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="xunwang"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Xun Wang
-            </h4>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4
-              class="service-heading"
-              id="yanzhao"
-              onmouseover="mouseOver(this.id)"
-              onmouseout="mouseOut(this.id)"
-            >
-              Yan Zhao
-            </h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- feature -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Features</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="" />
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="subheading">
-                      feature1
-                    </h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                      to do
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="" />
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="subheading">
-                      feature2
-                    </h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                      to do
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="" />
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>feature3</h4>
-                    <h4 class="subheading">todo</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                      to do
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image timeline-image-last"></div>
-              </li>
+          <div class="col-md-6">
+            <ul class="social-media">
+              <li><a href="https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki" class="p-2"><span class="icon-github"></span></a></li>
             </ul>
           </div>
         </div>
+      </div> 
+    </div>
+
+   
+    <header class="site-navbar py-4 bg-white js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-4">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Personal Wiki<span class="text-primary">.</span> </a></h1>
+          </div>
+          <div class="col-12 col-md-8 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#work-section" class="nav-link">Our Works</a></li>
+                <li><a href="#team-section">Our Team</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">               
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <!-- <h1>We Love To Build <span class="typed-words"></span></h1> -->
+                <h1>This is the initial Web Page for our project Personal Wiki. </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+
+    <section class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">01.</div>
+              <h2 class="text-primary">Feature1</h2>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <!-- <ul class="list-unstyled ul-check primary">
+                <li>Customer Experience</li>
+                <li>Product Management</li>
+                <li>Proof of Concept</li>
+              </ul> -->
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">02.</div>
+              <h2 class="text-primary">Feature2</h2>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <!-- <ul class="list-unstyled ul-check primary">
+                <li>Web Design</li>
+                <li>Branding</li>
+                <li>Web &amp; App Development</li>
+              </ul> -->
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="p-3 box-with-humber">
+              <div class="number-behind">03.</div>
+              <h2 class="text-primary">Feature3</h2>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <!-- <ul class="list-unstyled ul-check primary">
+                <li>Social Media</li>
+                <li>Paid Campaigns</li>
+                <li>Marketing &amp; SEO</li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
+    <section class="site-section" id="work-section">
       <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="text-black h1 site-section-heading text-center">Our Works</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>  
+    
+    <section class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center">
+            <h2 class="text-black h1 site-section-heading">Our Team</h2>
+          </div>
+        </div>
         <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Ziqi Tang</h3>
+              <!-- <p class="position text-muted">Co-Founder, President</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Shengfu Zhang</h3>
+              <!-- <p class="position text-muted">Co-Founder, COO</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Fang Song</h3>
+              <!-- <p class="position text-muted">Marketing</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Qimin Cao</h3>
+              <!-- <p class="position text-muted">Co-Founder, President</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Xun Wang</h3>
+              <!-- <p class="position text-muted">Co-Founder, COO</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <ul class="ul-social-circle">
+                <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+            <div class="person text-center">
+              <img src="images/person.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+              <h3>Yan Zhao</h3>
+<!--               <p class="position text-muted">Marketing</p> -->
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <ul class="ul-social-circle">
+                <li><a href="#"><span class="icon-github"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row text-center">
           <div class="col-md-4">
-            <span class="copyright"> &copy; Personal Wiki</span>
+            <p class="copyright"> &copy; Personal Wiki</p>
           </div>
 
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a
-                  href="https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki"
-                >
-                  <i class="fab fa-github"></i>
+                <a href="https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki" class="p-2"><span class="icon-github"></span></a>
                 </a>
               </li>
             </ul>
           </div>
 
           <div class="col-md-4">
-            <span class="copyright">
+            <p class="copyright">
               Hope you like it.
-            </span>
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </div> <!-- .site-wrap -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
 
-    <!-- JS vanilla feature JavaScript -->
-    <script src="js/myVanilla.js"></script>
+<!--   <script src="js/typed.js"></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Keyword1"," Keyword2"," Keyword3"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script> -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+  <script src="js/main.js"></script>
+  
+
+
   </body>
 </html>
