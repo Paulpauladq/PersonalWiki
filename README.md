@@ -26,9 +26,9 @@ Project repository for 'PersonalWiki' team
 |Xun Wang|xunwang|
 |Yan Zhao|adoudouzhao|
 
-* Primary customer representative: Ziqi Tang(paultzq)
+>Primary customer representative: Ziqi Tang(@paultzq)
 
-* Alternate customer representative: Shengfu Zhang(otaku0628)
+>Alternate customer representative: Shengfu Zhang(@otaku0628)
 
 
 
