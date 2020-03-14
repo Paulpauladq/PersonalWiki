@@ -20,22 +20,9 @@ Project repository for 'PersonalWiki' team
 |Xun Wang|xunwang|
 |Yan Zhao|adoudouzhao|
 
+* Primary customer representative: Ziqi Tang(paultzq)
 
-Name: Ziqi Tang   CCIS-ID:paultzq
-
-Name: Shengfu Zhang CCIS-ID:otaku0628
-
-Name: Fang Song   CCIS-ID: fangsong
-
-Name: Qimin Cao   CCIS-ID: qimin
-
-Name: Xun Wang  CCIS-ID: xunwang
-
-Name: Yan Zhao  CCIS-ID: adoudouzhao
-
-Primary customer representative: 
-
-Alternate customer representative: 
+* Alternate customer representative: Shengfu Zhang(otaku0628)
 
 # Description
 
