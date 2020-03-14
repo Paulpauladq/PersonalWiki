@@ -3,7 +3,7 @@ Project repository for 'PersonalWiki' team
 
 # Overview
 
-* The goal of this project is the creation of personal wiki application.
+* Our team creates a Personal Wiki web service that enable individual users to manage their own personal knowledgebase. 
      * Design the frontend that allows users to view, edit and delete wiki contents.
      * Build the backend to interact with database and frontend, managing operations on wiki pages.
 
