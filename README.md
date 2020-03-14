@@ -3,10 +3,24 @@ Project repository for 'PersonalWiki' team
 
 # Overview
 
-The goal of this project is the creation of personal wiki application that includes a frontend component that allows for user interactions and a backend component that allows for the managing and operations on wiki pages
+* The goal of this project is the creation of personal wiki application.
+     * Design the frontend that allows users to view, edit and delete wiki contents.
+     * Build the backend to interact with database and frontend, managing operations on wiki pages.
 
 
 # Team
+
+
+|Name|CCIS-ID|
+|------|-------|
+|Ziqi Tang|paultzq|
+|Shengfu Zhang|otaku0628|
+|Fang Song|fangsong|
+|Qimin Cao|qimin|
+|Xun Wang|xunwang|
+|Yan Zhao|adoudouzhao|
+
+
 Name: Ziqi Tang   CCIS-ID:paultzq
 
 Name: Shengfu Zhang CCIS-ID:otaku0628
