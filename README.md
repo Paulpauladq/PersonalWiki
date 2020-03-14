@@ -7,8 +7,6 @@ Project repository for 'PersonalWiki' team
      * Design the frontend that allows users to view, add, edit and delete wiki contents.
      * Build the backend to interact with database and frontend, managing operations on wiki pages.
 
-# Description
-
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
 * [Project Board](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/projects/1)
