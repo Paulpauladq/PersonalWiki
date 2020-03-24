@@ -10,6 +10,7 @@ Project repository for 'PersonalWiki' team
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
 * [Project Board](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/projects/1)
+* [Communication Plan](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/blob/master/docs/Communications%20Plan.pdf)
 
 
 # Team
