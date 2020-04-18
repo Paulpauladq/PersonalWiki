@@ -28,6 +28,25 @@ Project repository for 'PersonalWiki' team
 
 >Alternate customer representative: Shengfu Zhang(otaku0628)
 
+# Usage
+
+First please make sure you have installed meteor, mongoDB, and React.
+
+Then run the following commands in your terminal.
+
+```
+git clone https://github.com/QiminCao/flight-of-fancy-app.git
+cd flight-of-fancy-app
+meteor npm install
+meteor
+```
+Open your browser and visit http://localhost:3000 and you should see the application.
+
+# Technologies
+
+- Platform: [Meteor](https://www.meteor.com/) with React - An open source platform for 
+web, mobile, and desktop.
+- UI: [Semantic UI React](https://react.semantic-ui.com/) - A development framework that helps create beautiful, responsive layouts using human-friendly HTML.
 
 
 # Team Collaboration
