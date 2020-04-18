@@ -10,6 +10,7 @@ Project repository for 'PersonalWiki' team
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
 * [Project Board](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/projects/1)
+* [Communication Plan](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/blob/master/docs/Communications%20Plan.pdf)
 
 
 # Team
@@ -50,6 +51,5 @@ web, mobile, and desktop.
 
 
 # Team Collaboration
-* We use a "git flow" workflow 
-     * Team members create forks of the team repository, 
-     * Team members submit pull requests to merge forked repo changes to the master branch of the team's repo
+* We use a feature branch workflow
+     * Team members commit branches and submit pull requests to have code reviewed and committed to the master branch
