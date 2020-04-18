@@ -98,7 +98,7 @@ class SearchContent extends React.Component {
 			console.log(res);
 			this.setState({
 				title: res.title,
-				links: res.links.slice(0, 100),
+				links: res.links.slice(0, 10),
 				content: res.text["*"]
 			});
 		});
