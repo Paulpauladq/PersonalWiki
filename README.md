@@ -36,8 +36,8 @@ First please make sure you have installed meteor, mongoDB, and React.
 Then run the following commands in your terminal.
 
 ```
-git clone https://github.com/QiminCao/flight-of-fancy-app.git
-cd flight-of-fancy-app
+git clone https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki.git
+cd project-PersonalWiki
 meteor npm install
 meteor
 ```
