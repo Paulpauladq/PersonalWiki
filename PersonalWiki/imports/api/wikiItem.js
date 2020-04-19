@@ -29,5 +29,23 @@ Meteor.methods({
 			author: Meteor.user().username,
 			date: new Date()
 		});
+	},
+
+	"WikiItem.update"(id, wikiItem) {
+		if (!this.userId) {
+			throw new Meteor.Error("not-authorized");
+		}
+		check(wikiItem, Object);
+		WikiItem.update({_id: id}, {$set: {wikiItem: wikiItem, date: new Date()}});
+	},
+
+	"WikiItem.delete"(id) {
+		if (Meteor.isServer) {
+			check(id, String);
+			if(!Meteor.userId()) {
+				throw new Meteor.Error("not-authorized");
+			}
+			WikiItem.remove({_id: id});
+		}
 	}
 });
