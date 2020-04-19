@@ -4,8 +4,10 @@ Project repository for 'PersonalWiki' team
 # Overview
 
 * Our team creates a Personal Wiki web service that enable individual users to manage their own personal knowledgebase. 
-     * Design the frontend that allows users to view, add, edit and delete wiki contents.
-     * Build the backend to interact with database and frontend, managing operations on wiki pages.
+     * Create the frontend on Meteor platform with React/Javascript/CSS/Html, allowing users to view/add/edit/delete/search wiki contents;
+     * Build the backend on Mongodb to interact with database and frontend, managing operations on wiki pages;
+     * Design UI using Semantic-UI-React to create beautiful and responsive layouts.
+
 
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
@@ -48,6 +50,7 @@ Open your browser and visit http://localhost:3000 and you should see the applica
 - Platform: [Meteor](https://www.meteor.com/) with React - An open source platform for 
 web, mobile, and desktop.
 - UI: [Semantic UI React](https://react.semantic-ui.com/) - A development framework that helps create beautiful, responsive layouts using human-friendly HTML.
+
 
 
 # Team Collaboration
