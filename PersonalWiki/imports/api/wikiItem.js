@@ -26,11 +26,8 @@ Meteor.methods({
 
 		WikiItem.insert({
 			wikiItem: wikiItem,
-			authorProfile: {
-				name: Meteor.user().username,
-				avatar: Meteor.user().profile.avatar
-			},
-			createdAt: new Date()
+			author: Meteor.user().username,
+			date: new Date()
 		});
 	}
 });

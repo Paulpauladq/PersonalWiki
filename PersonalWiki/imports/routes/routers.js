@@ -6,13 +6,14 @@ import { Tracker } from "meteor/tracker";
 
 import Signup from "../ui/Signup.jsx";
 import Login from "../ui/Login.jsx";
+import CreateWiki from "../ui/CreateWiki.jsx";
 import App from "../ui/App.jsx";
 import NotFound from "../ui/NotFound.jsx";
 
 const browserHistory = createBrowserHistory();
 
 const authPages = ["/app"];
-const unAuthpages = ["/", "/signup"];
+const unAuthpages = ["/", "/signup", "/createWiki"];
 
 // Tracking auth status
 const authStatus = isLoggedin => {
@@ -49,6 +50,11 @@ export const renderRoutes = () => (
 				render={() =>
 					Meteor.userId() ? <Redirect to="/app" /> : <Signup />
 				}
+			/>
+			<Route
+				exact
+				path="/createWiki"
+				render={() => !Meteor.userId() ? <Redirect to="/app" /> : <CreateWiki />}
 			/>
 			<Route
 				exact
