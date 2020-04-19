@@ -14,10 +14,12 @@ Meteor.methods({
 	"searchedHistroy.insert"(searchedItem) {
 		check(searchedItem, String);
 
-		searchedHistroy.insert({
-			searchedItem: searchedItem
-		});
+		var fancyPostsExist = searchedHistroy.find({searchedItem: searchedItem}, {limit: 1}).count() > 0;
+
+		if (!fancyPostsExist) {
+			searchedHistroy.insert({
+				searchedItem: searchedItem
+			});
+		}
 	}
 });
-
-
