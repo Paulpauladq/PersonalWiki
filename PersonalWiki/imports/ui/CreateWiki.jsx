@@ -4,8 +4,9 @@ import {Accounts} from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 import PropTypes from "prop-types";
 import Header from "./Header.jsx";
+import {Link, withRouter} from "react-router-dom";
 
-export default class CreateWiki extends Component {
+class CreateWiki extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -14,6 +15,8 @@ export default class CreateWiki extends Component {
 			content: "",
 			picture: "",
 		};
+		this.handleChangeInfo = this.handleChangeInfo.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	handleChangeInfo(event) {
@@ -80,7 +83,12 @@ export default class CreateWiki extends Component {
 										placeholder="Picture url"
 										onChange={(e) => this.handleChangeInfo(e)}
 									/>
-									<Button positive onClick={(e) => this.handleSubmit(e)}>Submit</Button>
+									<Link to="/app">
+										<Button positive>Back</Button>
+									</Link>
+									<Button positive onClick={(e) => this.handleSubmit(e)}>
+										Submit
+									</Button>
 								</Form>
 							</Grid.Column>
 						</Grid.Row>
@@ -92,5 +100,6 @@ export default class CreateWiki extends Component {
 }
 
 CreateWiki.propTypes = {
-	history: PropTypes.object.isRequired
+	history: PropTypes.object
 };
+export default withRouter(CreateWiki);
