@@ -60,6 +60,7 @@ class CreateWiki extends Component {
               <Grid.Column width={"16"}>
                 <Form>
                   <Form.Input
+                    required
                     label={"Title"}
                     fluid
                     type="text"
@@ -69,6 +70,7 @@ class CreateWiki extends Component {
                     onChange={(e) => this.handleChangeInfo(e)}
                   />
                   <Form.Field
+                    required
                     control={TextArea}
                     name={"content"}
                     label="Content"
@@ -86,7 +88,11 @@ class CreateWiki extends Component {
                   <Link to="/mypage">
                     <Button positive>Back</Button>
                   </Link>
-                  <Button positive onClick={(e) => this.handleSubmit(e)}>
+                  <Button
+                    positive
+                    disabled={!this.state.title || !this.state.content}
+                    onClick={(e) => this.handleSubmit(e)}
+                  >
                     Submit
                   </Button>
                 </Form>
