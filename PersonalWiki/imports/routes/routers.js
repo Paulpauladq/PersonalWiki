@@ -63,7 +63,7 @@ export const renderRoutes = () => (
       <Route
         exact
         path="/mypage"
-        render={() => (!Meteor.userId() ? <Redirect to="/mapage" /> : <MyPage />)}
+        render={() => (!Meteor.userId() ? <Redirect to="/" /> : <MyPage />)}
       />
       <Route component={NotFound} />
     </Switch>
