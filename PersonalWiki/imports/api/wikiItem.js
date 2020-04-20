@@ -22,7 +22,8 @@ Meteor.methods({
       wikiItem: wikiItem,
       author: Meteor.user().username,
       authorId: Meteor.userId(),
-      date: new Date(),
+      createdDate: new Date(),
+      lastModified: undefined,
     });
   },
 
@@ -33,7 +34,7 @@ Meteor.methods({
     check(wikiItem, Object);
     WikiItem.update(
       { _id: id },
-      { $set: { wikiItem: wikiItem, date: new Date() } }
+      { $set: { wikiItem: wikiItem, lastModified: new Date() } }
     );
   },
 
