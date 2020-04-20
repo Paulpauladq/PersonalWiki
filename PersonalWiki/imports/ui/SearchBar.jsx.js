@@ -18,21 +18,26 @@ export default class SearchBar extends React.Component {
 
 	render() {
 		return (
-			<Form onSubmit={this.onFormSubmit.bind(this)}>
-				<Form.Field>
-					<Input
+			<Grid centered>
+				<Grid.Column width={10}>
+					<Form onSubmit={this.onFormSubmit.bind(this)}>
+						<Form.Field>
+							<Input
 						id="searchBar"
 						type="text"
 						value={this.state.search}
 						onChange={e =>
 							this.setState({ search: e.target.value })
 						}
-						placeholder="Search Wikiedia"
+						icon="search"
+						placeholder="Search Wikipedia"
 						aria-label="search"
 						fluid
-					/>
-				</Form.Field>
-			</Form>
+						/>
+						</Form.Field>
+					</Form>
+				</Grid.Column>
+			</Grid>
 		);
 	}
 }

@@ -195,7 +195,11 @@ class MyPage extends Component {
         <Container>
         <Header />
         {" "}
-        <h1>My Wiki Items: </h1>
+        <Link to="/createWiki">
+          <Button fluid>Create a new wiki item</Button>
+        </Link>
+        <br />
+        <br />
         <Card.Group>{this.renderMyWikiItems()} </Card.Group>
         <br />
         <br />

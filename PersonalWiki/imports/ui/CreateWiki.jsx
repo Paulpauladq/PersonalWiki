@@ -39,7 +39,7 @@ class CreateWiki extends Component {
 
     Meteor.call("WikiItem.insert", wikiItem, (error) => {
       if (error === undefined || error === null) {
-        this.props.history.push("/app");
+        this.props.history.push("/mypage");
       } else {
         console.log(error);
       }

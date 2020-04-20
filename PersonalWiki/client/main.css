@@ -3,4 +3,12 @@ body {
   font-family: sans-serif; 
 }
 
+#searchBar {
+  border-radius: 50px;
 
+}
+
+#typingContent {
+  font-size: 30px;
+  font-family: "Damion", cursive;;
+}
