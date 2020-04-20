@@ -47,7 +47,7 @@ class MyPage extends Component {
   }
 
   handleOpen(c) {
-    console.log(c._id);
+    console.log(c);
     this.setState({ title: c.wikiItem.title });
     this.setState({ content: c.wikiItem.contents.content });
     this.setState({ picture: c.wikiItem.contents.picture });
@@ -76,7 +76,13 @@ class MyPage extends Component {
             src={c.wikiItem.contents.picture}
           />
           <Card.Header>{c.wikiItem.title}</Card.Header>
-          <Card.Meta>Created at: {c.wikiItem.date} </Card.Meta>
+          <Card.Meta>Created at: {c.createdDate.toLocaleString()} </Card.Meta>
+          <Card.Meta>
+            Last Modified:{" "}
+            {c.lastModified == undefined
+              ? "Never"
+              : c.lastModified.toLocaleString()}{" "}
+          </Card.Meta>
           <Card.Description>{c.wikiItem.contents.content}</Card.Description>
         </Card.Content>
         <Card.Content extra>
@@ -193,17 +199,15 @@ class MyPage extends Component {
     return (
       <div>
         <Container>
-        <Header />
-        {" "}
-        <h1>My Wiki Items: </h1>
-        <Card.Group>{this.renderMyWikiItems()} </Card.Group>
-        <br />
-        <br />
-        <br />
-        <Link to="/app">
-        <Button fluid>Back to main</Button>
-        </Link>
-        <Footer />
+          <Header /> <h1>My Wiki Items: </h1>
+          <Card.Group>{this.renderMyWikiItems()} </Card.Group>
+          <br />
+          <br />
+          <br />
+          <Link to="/app">
+            <Button fluid>Back to main</Button>
+          </Link>
+          <Footer />
         </Container>
       </div>
     );
