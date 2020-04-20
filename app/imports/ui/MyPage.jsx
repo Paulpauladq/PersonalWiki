@@ -71,12 +71,8 @@ class MyPage extends Component {
     return this.props.myWikiItems.map((c) => (
       <Card key={c._id} className="centered">
         <Card.Content>
-          <Image
-            floated="right"
-            size="mini"
-            src={c.wikiItem.contents.picture}
-          />
           <Card.Header>{c.wikiItem.title}</Card.Header>
+          <Image size="small" src={c.wikiItem.contents.picture} />
           <Card.Meta>Created at: {c.createdDate.toLocaleString()} </Card.Meta>
           <Card.Meta>
             Last Modified:{" "}
