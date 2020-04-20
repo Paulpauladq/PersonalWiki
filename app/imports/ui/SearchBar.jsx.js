@@ -29,7 +29,7 @@ export default class SearchBar extends React.Component {
                 value={this.state.search}
                 onChange={(e) => this.setState({ search: e.target.value })}
                 icon="search"
-                placeholder="Search Wikipedia"
+                placeholder="Search Wiki"
                 aria-label="search"
                 fluid
               />
