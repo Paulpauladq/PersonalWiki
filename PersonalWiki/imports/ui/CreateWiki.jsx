@@ -83,7 +83,7 @@ class CreateWiki extends Component {
                     placeholder="Picture url"
                     onChange={(e) => this.handleChangeInfo(e)}
                   />
-                  <Link to="/app">
+                  <Link to="/mypage">
                     <Button positive>Back</Button>
                   </Link>
                   <Button positive onClick={(e) => this.handleSubmit(e)}>
