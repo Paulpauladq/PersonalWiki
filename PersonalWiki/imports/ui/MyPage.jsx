@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import { withTracker } from "meteor/react-meteor-data";
 import PropTypes from "prop-types";
 import { Meteor } from "meteor/meteor";
+import { Link } from "react-router-dom";
 import { WikiItem } from "../api/wikiItem.js";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import {
+  Container,
   TextArea,
-  Link,
   Form,
   Segment,
   Modal,
@@ -73,7 +76,7 @@ class MyPage extends Component {
             src={c.wikiItem.contents.picture}
           />
           <Card.Header>{c.wikiItem.title}</Card.Header>
-          <Card.Meta>Created at: </Card.Meta>
+          <Card.Meta>Created at: {c.wikiItem.date} </Card.Meta>
           <Card.Description>{c.wikiItem.contents.content}</Card.Description>
         </Card.Content>
         <Card.Content extra>
@@ -189,9 +192,19 @@ class MyPage extends Component {
   render() {
     return (
       <div>
+        <Container>
+        <Header />
         {" "}
         <h1>My Wiki Items: </h1>
         <Card.Group>{this.renderMyWikiItems()} </Card.Group>
+        <br />
+        <br />
+        <br />
+        <Link to="/app">
+        <Button fluid>Back to main</Button>
+        </Link>
+        <Footer />
+        </Container>
       </div>
     );
   }

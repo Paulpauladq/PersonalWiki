@@ -4,6 +4,7 @@ import { Accounts } from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 import PropTypes from "prop-types";
 import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import { Link, withRouter } from "react-router-dom";
 
 class CreateWiki extends Component {
@@ -92,6 +93,7 @@ class CreateWiki extends Component {
               </Grid.Column>
             </Grid.Row>
           </Grid>
+          <Footer />
         </Container>
       </div>
     );

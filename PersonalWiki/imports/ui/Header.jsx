@@ -2,11 +2,17 @@ import React from "react";
 import { Accounts } from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 import { Menu } from "semantic-ui-react";
+import { Link, withRouter } from "react-router-dom";
+import PropTypes from "prop-types";
 import "./style/header.css";
 
-export default class Header extends React.Component {
+class Header extends React.Component {
 	onLogout() {
 		Accounts.logout();
+	}
+
+	onClick() {
+		this.props.history.push("/mypage");
 	}
 
 	render() {
@@ -19,17 +25,25 @@ export default class Header extends React.Component {
 						className="App-logo"
 						alt="logo"
 						/>
-					</Menu.Item>	
-					<Menu.Item>
-						<h2>Welcome to personal Wiki!</h2>
 					</Menu.Item>					
 				</Menu.Menu>
+				<Link to="/">
+					<Menu.Item>
+					<h2>Welcome to personal Wiki!</h2>
+					</Menu.Item>
+				</Link>	
 				<Menu.Menu position='right'>
 					<Menu.Item>
 						Welcome,{"  "}
 						{Meteor.user() ? Meteor.user().username : "anonymous"}
 					</Menu.Item>
-            		<Menu.Item
+					
+					<Menu.Item 
+						name="My Page" 
+						onClick={this.onClick.bind(this)}
+					/>
+						
+					<Menu.Item
 						name="logout"
 						onClick={this.onLogout.bind(this)}
 						position="right"
@@ -39,3 +53,9 @@ export default class Header extends React.Component {
 		);
 	}
 }
+
+Header.propTypes = {
+  history: PropTypes.object,
+};
+
+export default withRouter(Header);
