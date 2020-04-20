@@ -199,15 +199,22 @@ class MyPage extends Component {
     return (
       <div>
         <Container>
-          <Header /> <h1>My Wiki Items: </h1>
-          <Card.Group>{this.renderMyWikiItems()} </Card.Group>
-          <br />
-          <br />
-          <br />
-          <Link to="/app">
-            <Button fluid>Back to main</Button>
-          </Link>
-          <Footer />
+        <Header />
+        {" "}
+        <Link to="/createWiki">
+          <Button fluid>Create a new wiki item</Button>
+        </Link>
+        <br />
+        <br />
+        <Card.Group>{this.renderMyWikiItems()} </Card.Group>
+        <br />
+        <br />
+        <br />
+        <Link to="/app">
+        <Button fluid>Back to main</Button>
+        </Link>
+        <Footer />
+
         </Container>
       </div>
     );
