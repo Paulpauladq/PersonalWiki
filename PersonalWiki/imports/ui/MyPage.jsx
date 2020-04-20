@@ -68,7 +68,7 @@ class MyPage extends Component {
 
   renderMyWikiItems() {
     return this.props.myWikiItems.map((c) => (
-      <Card key={c._id}>
+      <Card key={c._id} className="centered">
         <Card.Content>
           <Image
             floated="right"
@@ -83,7 +83,9 @@ class MyPage extends Component {
               ? "Never"
               : c.lastModified.toLocaleString()}{" "}
           </Card.Meta>
-          <Card.Description>{c.wikiItem.contents.content}</Card.Description>
+          <Card.Description style={{ overflow: "auto", maxHeight: 250 }}>
+            {c.wikiItem.contents.content}
+          </Card.Description>
         </Card.Content>
         <Card.Content extra>
           <div className="ui two buttons">
@@ -199,22 +201,20 @@ class MyPage extends Component {
     return (
       <div>
         <Container>
-        <Header />
-        {" "}
-        <Link to="/createWiki">
-          <Button fluid>Create a new wiki item</Button>
-        </Link>
-        <br />
-        <br />
-        <Card.Group>{this.renderMyWikiItems()} </Card.Group>
-        <br />
-        <br />
-        <br />
-        <Link to="/app">
-        <Button fluid>Back to main</Button>
-        </Link>
-        <Footer />
-
+          <Header />{" "}
+          <Link to="/createWiki">
+            <Button fluid>Create a new wiki item</Button>
+          </Link>
+          <br />
+          <br />
+          <Card.Group>{this.renderMyWikiItems()} </Card.Group>
+          <br />
+          <br />
+          <br />
+          <Link to="/app">
+            <Button fluid>Back to main</Button>
+          </Link>
+          <Footer />
         </Container>
       </div>
     );
