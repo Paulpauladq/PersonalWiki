@@ -10,6 +10,7 @@ import {
   Container,
   TextArea,
   Form,
+  Icon,
   Segment,
   Modal,
   Popup,
@@ -104,14 +105,16 @@ class MyPage extends Component {
               <Modal.Header>Edit Wiki Item</Modal.Header>
               <Modal.Content>
                 <Form size={"small"}>
-                  <Form.Input
-                    label={"Title"}
-                    fluid
-                    type="text"
-                    name="title"
-                    value={this.state.title}
-                    onChange={(e) => this.handleChangeInfo(e)}
-                  />
+                  <Form.Field>
+                    <Form.Input
+                      label={"Title"}
+                      fluid
+                      type="text"
+                      name="title"
+                      value={this.state.title}
+                      onChange={(e) => this.handleChangeInfo(e)}
+                    />
+                  </Form.Field>
                   <Form.Field
                     control={TextArea}
                     name={"content"}
@@ -203,7 +206,10 @@ class MyPage extends Component {
         <Container>
           <Header />{" "}
           <Link to="/createWiki">
-            <Button fluid>Create a new wiki item</Button>
+            <Button fluid primary>
+              <Icon name="add" />
+              Create a new wiki item
+            </Button>
           </Link>
           <br />
           <br />
