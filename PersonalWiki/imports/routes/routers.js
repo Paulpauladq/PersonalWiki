@@ -14,7 +14,7 @@ import MyPage from "../ui/MyPage.jsx";
 const browserHistory = createBrowserHistory();
 
 const authPages = ["/app"];
-const unAuthpages = ["/", "/signup", "/createWiki"];
+const unAuthpages = ["/", "/signup", "/createWiki", "/mypage"];
 
 // Tracking auth status
 const authStatus = (isLoggedin) => {
@@ -63,7 +63,7 @@ export const renderRoutes = () => (
       <Route
         exact
         path="/mypage"
-        render={() => (!Meteor.userId() ? <Redirect to="/app" /> : <MyPage />)}
+        render={() => (!Meteor.userId() ? <Redirect to="/mapage" /> : <MyPage />)}
       />
       <Route component={NotFound} />
     </Switch>
