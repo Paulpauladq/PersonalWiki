@@ -28,6 +28,7 @@ export default class TypingAnimation extends Component {
 	render() {
 		return (
 			<div className="wrap type-wrap">
+				<img src="/book.png" height="25" width="25"></img>
 				<span
 					id="typingContent"
 					style={{ whiteSpace: "pre" }}
