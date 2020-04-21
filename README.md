@@ -11,6 +11,7 @@ Project repository for 'PersonalWiki' team
      * Deploy on Heroku Cloud Application Platform.
 
 
+* [Project Demo](https://mywiki5500.herokuapp.com/app)
 * [Project Page](https://pages.github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/)
 * [Project Wiki](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/wiki)
 * [Project Board](https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki/projects/1)
