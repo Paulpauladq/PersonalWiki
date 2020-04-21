@@ -55,6 +55,32 @@ web, mobile, and desktop.
 - UI: [Semantic UI React](https://react.semantic-ui.com/) - A development framework that helps create beautiful, responsive layouts using human-friendly HTML.
 - Database: [MongoDB](https://www.mongodb.com/) - A cross-platform document-oriented database program, using JSON-like documents with schema.
 
+# Design of MongoDB
+
+
+Collection Name: users
+
+
+| column | data type| description |
+|-------|-----|------|
+| _id | string | user id created by meteor |
+| password | string | user's password processed by bcrypt |
+| username | string | registered username |
+| address | string | registered email address |
+
+
+Collection Name: WikiItem
+
+
+| column | data type| description |
+|-------|-----|------|
+| _id | string | item id created by meteor |
+| title | string | title of the item |
+| contents | string | contents of the item |
+| picture | string | picture link of the item |
+| author | string | username of who creates this item |
+| authorId | string | user id of who creates this item |
+| createdDate | date | date this item is created |
 
 
 # Team Collaboration
