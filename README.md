@@ -42,7 +42,7 @@ Then run the following commands in your terminal.
 
 ```
 git clone https://github.ccs.neu.edu/2020SPCS5500SV/project-PersonalWiki.git
-cd project-PersonalWiki/PersonalWiki
+cd project-PersonalWiki/app
 meteor npm install
 meteor
 ```
