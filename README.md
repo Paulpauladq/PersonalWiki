@@ -86,3 +86,4 @@ Collection Name: WikiItem
 # Team Collaboration
 * We use a feature branch workflow
      * Team members commit branches and submit pull requests to have code reviewed and committed to the master branch
+* [Meeting Minutes](https://docs.google.com/document/d/1DFHlC-FHMITzVBR0lqLWufN_jOsb-JION9-rKtzQ54k/edit)
